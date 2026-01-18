@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>personal_skills__c</fullName>
+    <inlineHelpText>enter personal skills</inlineHelpText>
+    <label>personal skills</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Adaptability</fullName>
+                <default>false</default>
+                <label>Adaptability</label>
+            </value>
+            <value>
+                <fullName>Communication</fullName>
+                <default>false</default>
+                <label>Communication</label>
+            </value>
+            <value>
+                <fullName>Critical thinking</fullName>
+                <default>false</default>
+                <label>Critical thinking</label>
+            </value>
+            <value>
+                <fullName>Emotional intelligence</fullName>
+                <default>false</default>
+                <label>Emotional intelligence</label>
+            </value>
+            <value>
+                <fullName>Leadership</fullName>
+                <default>false</default>
+                <label>Leadership</label>
+            </value>
+            <value>
+                <fullName>Problem-solving</fullName>
+                <default>false</default>
+                <label>Problem-solving</label>
+            </value>
+            <value>
+                <fullName>Teamwork</fullName>
+                <default>false</default>
+                <label>Teamwork</label>
+            </value>
+            <value>
+                <fullName>Time management</fullName>
+                <default>false</default>
+                <label>Time management</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>
